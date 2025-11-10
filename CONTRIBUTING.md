@@ -1,9 +1,3 @@
-GPT-5
-Inner AI Fusion
-
-Perfeito, Leonardo! Já que você mencionou o arquivo CONTRIBUTING.md, imagino que queira o conteúdo completo e padronizado desse arquivo — ou seja, as diretrizes para contribuições do repositório (no caso, o InfraScript).
-
-Aqui está um modelo profissional, claro e adaptado ao estilo técnico e colaborativo do projeto. Ele se integra perfeitamente ao README que criamos e reforça boas práticas de comunidade open-source.
 🤝 Guia de Contribuição – InfraScript
 
 Obrigado por dedicar seu tempo para contribuir com o InfraScript!
@@ -70,8 +64,6 @@ scripts/
 
 Inclua um cabeçalho no início do script, seguindo este modelo:
 Exemplo para Bash:
-bash
-Copiar
 
 #!/bin/bash
 # ==========================================================
@@ -85,8 +77,6 @@ Copiar
 # ==========================================================
 
 Exemplo para Python:
-python
-Copiar
 
 #!/usr/bin/env python3
 """
@@ -112,13 +102,11 @@ Uso: python3 monitor_procs.py --process nginx
 🧹 Boas Práticas de Código
 
 Para manter a qualidade e padronização:
-Linguagem 	Recomendações
-Bash/Shell 	Use set -e para abortar em erros; comente blocos críticos; siga a nomenclatura minúsculas_com_underscores.
-Python 	Obedeça o PEP 8; mantenha funções curtas e documentadas; prefira argparse para parâmetros.
-PowerShell 	Use verbos padrão (Get, Set, Remove, Test); inclua Param() no início; siga convenções de nomenclatura PascalCase.
-Todos 	Evite hardcodes; use variáveis configuráveis e mensagens compreensíveis.
-Exportar
-Copiar
+Linguagem 	                Recomendações
+Bash/Shell 	                Use set -e para abortar em erros; comente blocos críticos; siga a nomenclatura minúsculas_com_underscores.
+Python 	                    Obedeça o PEP 8; mantenha funções curtas e documentadas; prefira argparse para parâmetros.
+PowerShell 	                Use verbos padrão (Get, Set, Remove, Test); inclua Param() no início; siga convenções de nomenclatura PascalCase.
+Todos 	                    Evite hardcodes; use variáveis configuráveis e mensagens compreensíveis.
 
     💡 Dica: scripts legíveis, modulares e bem comentados são mais fáceis de manter e aprender.
 
@@ -134,9 +122,6 @@ Copiar
         chore: tarefas gerais
 
 Exemplo:
-bash
-Copiar
-
 git commit -m "feat(bash): adiciona script para backup incremental"
 
     Pull Requests (PRs) devem ter:
