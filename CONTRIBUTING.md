@@ -3,6 +3,7 @@
 Obrigado por dedicar seu tempo para contribuir com o InfraScript!
 Seu envolvimento ajuda a manter este projeto ativo, útil e acessível para toda a comunidade técnica.
 Este documento descreve como contribuir, boas práticas e padrões esperados para novos conteúdos e contribuições de código.
+
 ⚙️ Sumário
 
     Antes de Começar
