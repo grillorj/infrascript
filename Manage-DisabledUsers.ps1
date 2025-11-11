@@ -143,7 +143,7 @@ $Config = @{
 	Domain				      = "dominio.com.br"
 	
 	# Email
-	SMTPServer			      = "10.230.43.154"
+	SMTPServer			      = "IP ou FQDN"
 	SMTPPort				  = 25
 	EmailFrom				  = "ScriptAD@dominio.com.br"
 	EmailTo				      = @("relatoriosad@dominio.com.br")
