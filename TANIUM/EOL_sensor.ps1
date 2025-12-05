@@ -29,7 +29,7 @@ if ($caption -like "*Windows Server 2012 R2*") {
     $mainEnd     = "2018-10-09"
     $extendedEnd = "2023-10-10"
 }
-elseif ($caption -like "*Windows Server 2016*") {
+if ($caption -like "*Windows Server 2016*") {
     $mainEnd     = "2022-01-11"
     $extendedEnd = "2027-01-12"
 }
@@ -37,11 +37,11 @@ elseif ($caption -like "*Windows Server 2019*") {
     $mainEnd     = "2024-01-09"
     $extendedEnd = "2029-01-09"
 }
-elseif ($caption -like "*Windows Server 2022*") {
+if ($caption -like "*Windows Server 2022*") {
     $mainEnd     = "2026-10-13"
     $extendedEnd = "2031-10-17"
 }
-elseif ($caption -like "*Windows Server 2025*") {
+if ($caption -like "*Windows Server 2025*") {
     $mainEnd     = "2026-10-13"
     $extendedEnd = "2031-10-14"
 }
@@ -52,10 +52,10 @@ $today = (Get-Date).ToString("yyyy-MM-dd")
 if ($mainEnd -ne "Desconhecido" -and $today -lt $mainEnd) {
     $supportPhase = "Com Suporte"
 }
-elseif ($extendedEnd -ne "Desconhecido" -and $today -le $extendedEnd) {
+if ($extendedEnd -ne "Desconhecido" -and $today -le $extendedEnd) {
     $supportPhase = "Suporte Extendido"
 }
-elseif ($extendedEnd -ne "Desconhecido" -and $today -gt $extendedEnd) {
+if ($extendedEnd -ne "Desconhecido" -and $today -gt $extendedEnd) {
     $supportPhase = "Sem Suporte"
 }
 
