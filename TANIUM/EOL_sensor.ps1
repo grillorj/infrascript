@@ -49,13 +49,13 @@ elseif ($caption -like "*Windows Server 2025*") {
 # Definir fase com base na data atual
 $today = (Get-Date).ToString("yyyy-MM-dd")
 
-if ($mainEnd -ne "Unknown" -and $today -lt $mainEnd) {
+if ($mainEnd -ne "Desconhecido" -and $today -lt $mainEnd) {
     $supportPhase = "Com Suporte"
 }
-elseif ($extendedEnd -ne "Unknown" -and $today -le $extendedEnd) {
+elseif ($extendedEnd -ne "Desconhecido" -and $today -le $extendedEnd) {
     $supportPhase = "Suporte Extendido"
 }
-elseif ($extendedEnd -ne "Unknown" -and $today -gt $extendedEnd) {
+elseif ($extendedEnd -ne "Desconhecido" -and $today -gt $extendedEnd) {
     $supportPhase = "Sem Suporte"
 }
 
