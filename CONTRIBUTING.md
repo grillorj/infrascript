@@ -70,6 +70,7 @@ scripts/
 Inclua um cabeçalho no início do script, seguindo este modelo:
 Exemplo para Bash:
 
+
 #!/bin/bash
 # ==========================================================
 # Nome: backup_server.sh
@@ -81,9 +82,11 @@ Exemplo para Bash:
 # Uso: ./backup_server.sh /origem /destino
 # ==========================================================
 
+
 Exemplo para Python:
 
 #!/usr/bin/env python3
+
 """
 Nome: monitor_procs.py
 Descrição: Monitora processos e alerta caso excedam thresholds.
