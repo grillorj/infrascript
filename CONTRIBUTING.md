@@ -56,9 +56,13 @@ Cada novo script adicionado deve seguir o formato e padrões abaixo:
 Adicione o script na pasta correspondente à sua linguagem:
 
 scripts/
+
 ├── bash/
+
 ├── python/
+
 ├── powershell/
+
 └── shell/
 
 🧾 Cabeçalho Padrão
