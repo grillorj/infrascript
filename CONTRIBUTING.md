@@ -55,40 +55,43 @@ Cada novo script adicionado deve seguir o formato e padrões abaixo:
 
 Adicione o script na pasta correspondente à sua linguagem:
 
-scripts/
-├── bash/
-├── python/
-├── powershell/
-└── shell/
+    scripts/
+    ├── bash/
+    ├── python/
+    ├── powershell/
+    └── shell/
 
 🧾 Cabeçalho Padrão
 
 Inclua um cabeçalho no início do script, seguindo este modelo:
 Exemplo para Bash:
 
-#!/bin/bash
-# ==========================================================
-# Nome: backup_server.sh
-# Descrição: Script para backup automatizado de diretórios
-# Autor: Leonardo Silva
-# Versão: 1.2
-# Data: 10/11/2025
-# Dependências: tar, gzip
-# Uso: ./backup_server.sh /origem /destino
-# ==========================================================
+
+    #!/bin/bash
+    # ==========================================================
+    # Nome: backup_server.sh
+    # Descrição: Script para backup automatizado de diretórios
+    # Autor: Leonardo Silva
+    # Versão: 1.2
+    # Data: 10/11/2025
+    # Dependências: tar, gzip
+    # Uso: ./backup_server.sh /origem /destino
+    # ==========================================================
+
 
 Exemplo para Python:
 
-#!/usr/bin/env python3
-"""
-Nome: monitor_procs.py
-Descrição: Monitora processos e alerta caso excedam thresholds.
-Autor: Leonardo Silva
-Versão: 2.0
-Data: 10/11/2025
-Dependências: psutil, smtplib
-Uso: python3 monitor_procs.py --process nginx
-"""
+    #!/usr/bin/env python3
+    
+    """
+    Nome: monitor_procs.py
+    Descrição: Monitora processos e alerta caso excedam thresholds.
+    Autor: Leonardo Silva
+    Versão: 2.0
+    Data: 10/11/2025
+    Dependências: psutil, smtplib
+    Uso: python3 monitor_procs.py --process nginx
+    """
 
 📘 Documentação Complementar
 
