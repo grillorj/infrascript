@@ -54,4 +54,4 @@ Mapeamento dos serviços: `himds` = `himds` (Windows) / `himdsd.service` (Linux)
 - As colunas **Subscription ID** e **Tenant ID** expõem identificadores do Azure. Considere ocultá-las ou restringir quem pode ver o sensor se os resultados forem exportados ou exibidos em dashboards.
 - **Last Heartbeat** muda em cada máquina e reduz a agregação de resultados. Se você só precisa contar conectadas, pode remover essa coluna.
 - Não cobre macOS, AIX nem Solaris.
-- Não foram encontradas credenciais nos scripts. Revise de novo antes de publicar.
+- Não existem credenciais nos Sensores.
